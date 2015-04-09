@@ -4,7 +4,7 @@ plex:
   build: plex
   links:
     - sonarr
-    - sabnzbd
+    - nzbget
   ports:
    - "32400:32400"
 
@@ -16,5 +16,7 @@ sonarr:
   ports:
     - "8989:8989"
 
-sabnzbd:
-  build: sabnzbd
+nzbget:
+  build: nzbget
+  ports:
+    - "6789:6789"
