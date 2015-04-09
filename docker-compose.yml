@@ -2,9 +2,6 @@ plex:
   #Plex, if you ever make an official plex image, let me know.
 
   build: plex
-  links:
-    - sonarr
-#    - nzbget
   ports:
    - "32400:32400"
 
@@ -13,6 +10,8 @@ sonarr:
   # https://github.com/Sonarr/Sonarr/wiki/Installation#linux
 
   image: tuxeh/sonarr
+  links:
+    - nzbget
   ports:
     - "8989:8989"
 
