@@ -4,7 +4,7 @@ plex:
   build: plex
   links:
     - sonarr
-    - nzbget
+#    - nzbget
   ports:
    - "32400:32400"
 
