@@ -1,6 +1,20 @@
 plex:
+  #Plex, if you ever make an official plex image, let me know.
+
   build: plex
-#  links:
-#   - db
+  links:
+    - sonarr
+    - sabnzbd
   ports:
    - "32400:32400"
+
+sonarr:
+  # Sonarr is pulled from an image since it's referenced in the official site
+  # https://github.com/Sonarr/Sonarr/wiki/Installation#linux
+
+  image: tuxeh/sonarr
+  ports:
+    - "8989:8989"
+
+sabnzbd:
+  build: sabnzbd
