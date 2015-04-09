@@ -1,0 +1,6 @@
+plex:
+  build: plex
+#  links:
+#   - db
+  ports:
+   - "32400:32400"
