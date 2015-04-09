@@ -1,11 +1,11 @@
-FROM ubuntu:latest
+FROM alpine:latest
 
-RUN apt-get update -y
-RUN apt-get upgrade -y
-RUN apt-get install -y python git-core
+RUN apk update
+RUN apk upgrade
+RUN apk add python git
 
-RUN cd /opt && \
-  git clone https://github.com/RuudBurger/CouchPotatoServer.git
-
+RUN mkdir /opt
 WORKDIR /opt
+RUN git clone https://github.com/RuudBurger/CouchPotatoServer.git
+
 ENTRYPOINT ["python", "CouchPotatoServer/CouchPotato.py"]
