@@ -18,6 +18,4 @@ RUN usermod -g 100 plex
 RUN mkdir /config
 RUN chown plex /config
 
-EXPOSE 32400
-
 CMD ["/usr/sbin/start_pms"]
