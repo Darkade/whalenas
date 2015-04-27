@@ -21,3 +21,8 @@ sonarr:
     - nzbget
   ports:
     - "8989:8989"
+
+couchpotato:
+  build: couchpotato
+  ports:
+    - "5050:5050"

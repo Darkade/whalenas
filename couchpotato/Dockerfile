@@ -7,5 +7,6 @@ RUN apk add python git
 RUN mkdir /opt
 WORKDIR /opt
 RUN git clone https://github.com/RuudBurger/CouchPotatoServer.git
+WORKDIR /opt/CouchPotatoServer
 
-ENTRYPOINT ["python", "CouchPotatoServer/CouchPotato.py"]
+CMD ["python", "CouchPotato.py", "--console_log"]
