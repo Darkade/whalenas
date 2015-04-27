@@ -2,13 +2,20 @@ plex:
   #Plex, if you ever make an official plex image, let me know.
 
   build: plex
+
+  environment:
+    - PLEX_VERSION=0.9.11.16.958-80f1748
+
   ports:
    - "32400:32400"
 
 nzbget:
-  # nzbget is installed from the ubuntu repositores
 
   build: nzbget
+
+  environment:
+    - NZBGET_VER=14.2
+
   ports:
     - "6789:6789"
 
