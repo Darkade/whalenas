@@ -5,6 +5,13 @@ plex:
   ports:
    - "32400:32400"
 
+nzbget:
+  # nzbget is installed from the ubuntu repositores
+
+  build: nzbget
+  ports:
+    - "6789:6789"
+
 sonarr:
   # Sonarr is pulled from an image since it's referenced in the official site
   # https://github.com/Sonarr/Sonarr/wiki/Installation#linux
@@ -14,19 +21,3 @@ sonarr:
     - nzbget
   ports:
     - "8989:8989"
-
-couchpotato:
-  # This is a pretty close copy paste of this Dockerfile
-  # https://github.com/razorgirl/docker-couchpotato/blob/master/Dockerfile
-  build: couchpotato
-  links:
-    - nzbget
-  ports:
-    - "5050:5050"
-
-nzbget:
-  # nzbget is installed from the ubuntu repositores
-
-  build: nzbget
-  ports:
-    - "6789:6789"
