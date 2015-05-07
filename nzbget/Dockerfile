@@ -2,8 +2,9 @@ FROM alpine:latest
 
 RUN apk update
 RUN apk upgrade
-RUN apk add wget g++
-RUN apk add libxml2
+RUN apk add wget
+RUN apk add alpine-sdk
+RUN apk add libxml2-dev ncurses-dev openssl-dev
 
 
 ###SHOULD BE OVERWRITTEN IN docker-compose.yml
@@ -19,7 +20,8 @@ WORKDIR /opt
 
 RUN wget "http://sourceforge.net/projects/nzbget/files/nzbget-stable/${NZBGET_VER}/nzbget-${NZBGET_VER}.tar.gz"
 RUN tar -zxf nzbget-${NZBGET_VER}.tar.gz
-RUN cd "nzbget-${NZBGET_VER}" && ./configure && make && make install
+
+RUN cd "nzbget-${NZBGET_VER}" && ./configure  && make && make install
 
 ADD start.sh /start.sh
 ADD nzbget.conf /config/nzbget.conf
