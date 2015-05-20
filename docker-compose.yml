@@ -7,7 +7,12 @@ plex:
     - PLEX_VERSION=0.9.11.16.958-80f1748
 
   ports:
-   - "32400:32400"
+    - "32400:32400"
+
+  volumes:
+    - ./media/movies:/opt/media/movies
+    - ./media/series:/opt/media/series
+    - ./media/nzb:/opt/media/nzb
 
 nzbget:
 
@@ -19,6 +24,9 @@ nzbget:
   ports:
     - "6789:6789"
 
+  volumes_from:
+    - plex
+
 sonarr:
   # Sonarr is pulled from an image since it's referenced in the official site
   # https://github.com/Sonarr/Sonarr/wiki/Installation#linux
@@ -29,12 +37,21 @@ sonarr:
   ports:
     - "8989:8989"
 
+  volumes_from:
+    - plex
+
 couchpotato:
   build: couchpotato
   ports:
     - "5050:5050"
 
+  volumes_from:
+    - plex
+
 btsync:
   build: btsync
   ports:
     - "8888:8888"
+
+  volumes_from:
+    - plex
