@@ -33,3 +33,8 @@ couchpotato:
   build: couchpotato
   ports:
     - "5050:5050"
+
+btsync:
+  build: btsync
+  ports:
+    - "8888:8888"
