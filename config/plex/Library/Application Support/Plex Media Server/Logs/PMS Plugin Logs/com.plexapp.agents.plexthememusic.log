@@ -1,0 +1,41 @@
+2015-08-12 22:22:10,439 (7f3be3343740) :  INFO (core:347) - Starting framework core - Version: 2.6.2, Build: 9c43436 (Mon Jul 20 02:39:32 UTC 2015)
+2015-08-12 22:22:10,440 (7f3be3343740) :  DEBUG (core:359) - Using the elevated policy
+2015-08-12 22:22:10,440 (7f3be3343740) :  DEBUG (core:448) - Starting runtime component.
+2015-08-12 22:22:10,443 (7f3be3343740) :  DEBUG (core:448) - Starting caching component.
+2015-08-12 22:22:10,444 (7f3be3343740) :  DEBUG (core:448) - Starting data component.
+2015-08-12 22:22:10,444 (7f3be3343740) :  DEBUG (core:448) - Starting networking component.
+2015-08-12 22:22:10,444 (7f3be3343740) :  DEBUG (networking:292) - No cookie jar found
+2015-08-12 22:22:10,444 (7f3be3343740) :  DEBUG (networking:458) - Setting the default network timeout to 20.0
+2015-08-12 22:22:10,445 (7f3be3343740) :  DEBUG (core:448) - Starting localization component.
+2015-08-12 22:22:10,445 (7f3be3343740) :  INFO (localization:408) - Setting the default locale to en-us
+2015-08-12 22:22:10,445 (7f3be3343740) :  DEBUG (core:448) - Starting messaging component.
+2015-08-12 22:22:10,446 (7f3bbb7fe700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.plexthememusic'
+2015-08-12 22:22:10,447 (7f3be3343740) :  DEBUG (core:448) - Starting debugging component.
+2015-08-12 22:22:10,447 (7f3be3343740) :  DEBUG (core:448) - Starting services component.
+2015-08-12 22:22:10,447 (7f3be3343740) :  DEBUG (core:448) - Starting myplex component.
+2015-08-12 22:22:10,447 (7f3be3343740) :  DEBUG (core:448) - Starting notifications component.
+2015-08-12 22:22:10,540 (7f3be3343740) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.plexthememusic in namespace 'metadata'
+2015-08-12 22:22:10,544 (7f3be3343740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2015-08-12 22:22:10,583 (7f3bbb7fe700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2015-08-12 22:22:10,584 (7f3be3343740) :  DEBUG (runtime:1111) - Created a thread named 'load_all_services'
+2015-08-12 22:22:10,585 (7f3bbb7fe700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2015-08-12 22:22:10,586 (7f3bba7fc700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400'
+2015-08-12 22:22:10,586 (7f3be3343740) :  DEBUG (runtime:1111) - Created a thread named 'get_server_info'
+2015-08-12 22:22:10,589 (7f3be3343740) :  DEBUG (core:150) - Finished starting framework core
+2015-08-12 22:22:10,589 (7f3be3343740) :  DEBUG (core:558) - Loading plug-in code
+2015-08-12 22:22:10,597 (7f3be3343740) :  DEBUG (core:564) - Finished loading plug-in code
+2015-08-12 22:22:10,597 (7f3be3343740) :  DEBUG (agentkit:1094) - Creating new agent class called PlexThemeMusicAgent
+2015-08-12 22:22:10,598 (7f3be3343740) :  DEBUG (agentkit:912) - Updating agent information: [{'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.thetvdb', 'com.plexapp.agents.themoviedb'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'Plex Theme Music'}]
+2015-08-12 22:22:10,600 (7f3be3343740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMzCmNvbS5wbGV4YXBwLmFnZW50cy5wbGV4dGhlbWVtdXNpY3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczE2ClBsZXggVGhlbWUgTXVzaWNzNApuYW1lMQpzNwpUVl9TaG93MgpzMjYKY29tLnBsZXhhcHAuYWdlbnRzLnRoZXR2ZGJzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIxCnMyCnhucjAK'
+2015-08-12 22:22:10,605 (7f3bba7fc700) :  DEBUG (core:536) - Machine identifier is 9d5c4bd64759e6065ad6711399b5cc3aa49f25e0
+2015-08-12 22:22:10,605 (7f3bba7fc700) :  DEBUG (core:537) - Server version is 0.9.12.8.1362-4601e39
+2015-08-12 22:22:10,626 (7f3be3343740) :  INFO (core:609) - Started plug-in
+2015-08-12 22:22:10,626 (7f3be3343740) :  DEBUG (socketinterface:160) - Starting socket server
+2015-08-12 22:22:10,627 (7f3be3343740) :  DEBUG (runtime:1111) - Created a thread named 'start'
+2015-08-12 22:22:10,627 (7f3be3343740) :  INFO (socketinterface:184) - Socket server started on port 55746
+2015-08-12 22:22:10,627 (7f3be3343740) :  INFO (pipeinterface:25) - Entering run loop
+2015-08-12 22:22:10,627 (7f3be3343740) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2015-08-12 22:22:10,629 (7f3be3343740) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2015-08-12 22:22:10,630 (7f3be3343740) :  DEBUG (runtime:918) - Response: [200] MediaContainer, 158 bytes
+2015-08-12 22:22:10,690 (7f3bbb7fe700) :  DEBUG (services:362) - Loaded services
+2015-08-12 22:22:10,693 (7f3bbaffd700) :  DEBUG (services:438) - No shared code to load

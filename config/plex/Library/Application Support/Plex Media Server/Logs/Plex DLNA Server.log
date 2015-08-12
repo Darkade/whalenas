@@ -1,0 +1,10 @@
+Aug 12, 2015 22:22:08 [0x7ff2f6ac4840] DEBUG - Starting Plex DLNA Server 0.9.12.8.1362-4601e39...
+Aug 12, 2015 22:22:08 [0x7ff2f6ac4840] DEBUG - Unique device name = 9d5c4bd6-4759-e606-5ad6-711399b5cc3a
+Aug 12, 2015 22:22:08 [0x7ff2f6ac4840] DEBUG - DLNA server port: 32469
+Aug 12, 2015 22:22:08 [0x7ff2f6ac4840] DEBUG - PMS: http://127.0.0.1:32400/
+Aug 12, 2015 22:22:08 [0x7ff2f6ac4840] DEBUG - MyPlex: https://plex.tv/
+Aug 12, 2015 22:22:09 [0x7ff2f6ac4840] DEBUG - Loading com.plexapp.dlna is complete (success=1)
+Aug 12, 2015 22:22:09 [0x7ff2f6ac4840] DEBUG - Reading system DLNA client profiles
+Aug 12, 2015 22:22:09 [0x7ff2f6ac4840] DEBUG - Read 19 DLNA client profiles
+Aug 12, 2015 22:22:09 [0x7ff2f6ac4840] DEBUG - DLNA device discovery enabled every 60 seconds
+Aug 12, 2015 22:22:09 [0x7ff2f6ac4840] DEBUG - Initialization complete

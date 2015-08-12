@@ -1,0 +1,44 @@
+2015-08-12 22:22:11,557 (7f298a4a4740) :  INFO (core:347) - Starting framework core - Version: 2.6.2, Build: 9c43436 (Mon Jul 20 02:39:32 UTC 2015)
+2015-08-12 22:22:11,558 (7f298a4a4740) :  DEBUG (core:359) - Using the elevated policy
+2015-08-12 22:22:11,558 (7f298a4a4740) :  DEBUG (core:448) - Starting runtime component.
+2015-08-12 22:22:11,563 (7f298a4a4740) :  DEBUG (core:448) - Starting caching component.
+2015-08-12 22:22:11,563 (7f298a4a4740) :  DEBUG (core:448) - Starting data component.
+2015-08-12 22:22:11,564 (7f298a4a4740) :  DEBUG (core:448) - Starting networking component.
+2015-08-12 22:22:11,564 (7f298a4a4740) :  DEBUG (networking:292) - No cookie jar found
+2015-08-12 22:22:11,564 (7f298a4a4740) :  DEBUG (networking:458) - Setting the default network timeout to 20.0
+2015-08-12 22:22:11,565 (7f298a4a4740) :  DEBUG (core:448) - Starting localization component.
+2015-08-12 22:22:11,565 (7f298a4a4740) :  INFO (localization:408) - Setting the default locale to en-us
+2015-08-12 22:22:11,565 (7f298a4a4740) :  DEBUG (core:448) - Starting messaging component.
+2015-08-12 22:22:11,565 (7f298a4a4740) :  DEBUG (core:448) - Starting debugging component.
+2015-08-12 22:22:11,565 (7f298a4a4740) :  DEBUG (core:448) - Starting services component.
+2015-08-12 22:22:11,566 (7f298a4a4740) :  DEBUG (core:448) - Starting myplex component.
+2015-08-12 22:22:11,566 (7f298a4a4740) :  DEBUG (core:448) - Starting notifications component.
+2015-08-12 22:22:11,579 (7f296a7fc700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.vevo'
+2015-08-12 22:22:11,657 (7f298a4a4740) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.vevo in namespace 'metadata'
+2015-08-12 22:22:11,660 (7f298a4a4740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2015-08-12 22:22:11,681 (7f296a7fc700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2015-08-12 22:22:11,682 (7f296a7fc700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2015-08-12 22:22:11,698 (7f298a4a4740) :  DEBUG (runtime:1111) - Created a thread named 'load_all_services'
+2015-08-12 22:22:11,701 (7f29697fa700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400'
+2015-08-12 22:22:11,706 (7f29697fa700) :  DEBUG (core:536) - Machine identifier is 9d5c4bd64759e6065ad6711399b5cc3aa49f25e0
+2015-08-12 22:22:11,706 (7f29697fa700) :  DEBUG (core:537) - Server version is 0.9.12.8.1362-4601e39
+2015-08-12 22:22:11,708 (7f298a4a4740) :  DEBUG (runtime:1111) - Created a thread named 'get_server_info'
+2015-08-12 22:22:11,708 (7f298a4a4740) :  DEBUG (core:150) - Finished starting framework core
+2015-08-12 22:22:11,708 (7f298a4a4740) :  DEBUG (core:558) - Loading plug-in code
+2015-08-12 22:22:11,792 (7f298a4a4740) :  DEBUG (core:564) - Finished loading plug-in code
+2015-08-12 22:22:11,795 (7f298a4a4740) :  DEBUG (agentkit:1094) - Creating new agent class called VevoArtistAgent
+2015-08-12 22:22:11,795 (7f298a4a4740) :  DEBUG (agentkit:912) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.plexmusic', 'com.plexapp.agents.lastfm', 'com.plexapp.agents.localmedia'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'VEVO Music Videos'}]
+2015-08-12 22:22:11,796 (7f298a4a4740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczIzCmNvbS5wbGV4YXBwLmFnZW50cy52ZXZvczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzEKcjIKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTcKVkVWTyBNdXNpYyBWaWRlb3NzNApuYW1lMQpzNgpBcnRpc3QzCnMyOApjb20ucGxleGFwcC5hZ2VudHMucGxleG11c2ljczI1CmNvbS5wbGV4YXBwLmFnZW50cy5sYXN0Zm1zMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWExCnMyCnhucjAK'
+2015-08-12 22:22:11,816 (7f298a4a4740) :  DEBUG (agentkit:1094) - Creating new agent class called VevoAlbumAgent
+2015-08-12 22:22:11,824 (7f298a4a4740) :  DEBUG (agentkit:912) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.plexmusic', 'com.plexapp.agents.lastfm', 'com.plexapp.agents.localmedia'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'VEVO Music Videos'}, {'media_types': ['Album'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.plexmusic', 'com.plexapp.agents.localmedia'], 'languages': ['xn'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': True, 'name': 'VEVO Music Videos'}]
+2015-08-12 22:22:11,831 (7f298a4a4740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxMApkaWN0Cmxpc3QKZGljdApsaXN0Cmxpc3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczIzCmNvbS5wbGV4YXBwLmFnZW50cy52ZXZvczEwCmlkZW50aWZpZXJyMQpzMTAKYWdlbnRfaW5mbzIKcjIKcjYKMTAKcjMKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjQKczE0CmNvbnRyaWJ1dGVzX3RvcjUKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTcKVkVWTyBNdXNpYyBWaWRlb3NzNApuYW1lMQpzNgpBcnRpc3QzCnMyOApjb20ucGxleGFwcC5hZ2VudHMucGxleG11c2ljczI1CmNvbS5wbGV4YXBwLmFnZW50cy5sYXN0Zm1zMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWExCnMyCnhuMTAKcjcKczExCm1lZGlhX3R5cGVzbnMxMgphY2NlcHRzX2Zyb21uczE0CmZhbGxiYWNrX2FnZW50cjgKczE0CmNvbnRyaWJ1dGVzX3RvcjkKczkKbGFuZ3VhZ2VzYjFzMjAKcGVyc2lzdF9zdG9yZWRfZmlsZXNpMApzNwp2ZXJzaW9uYjBzMTYKcHJpbWFyeV9wcm92aWRlcmIxczUKcHJlZnNzMTcKVkVWTyBNdXNpYyBWaWRlb3NzNApuYW1lMQpzNQpBbGJ1bTIKczI4CmNvbS5wbGV4YXBwLmFnZW50cy5wbGV4bXVzaWNzMjkKY29tLnBsZXhhcHAuYWdlbnRzLmxvY2FsbWVkaWExCnMyCnhucjAK'
+2015-08-12 22:22:11,831 (7f296a7fc700) :  DEBUG (services:362) - Loaded services
+2015-08-12 22:22:11,837 (7f2969ffb700) :  DEBUG (services:438) - No shared code to load
+2015-08-12 22:22:11,842 (7f298a4a4740) :  INFO (core:609) - Started plug-in
+2015-08-12 22:22:11,842 (7f298a4a4740) :  DEBUG (socketinterface:160) - Starting socket server
+2015-08-12 22:22:11,842 (7f298a4a4740) :  DEBUG (runtime:1111) - Created a thread named 'start'
+2015-08-12 22:22:11,843 (7f298a4a4740) :  INFO (socketinterface:184) - Socket server started on port 53380
+2015-08-12 22:22:11,843 (7f298a4a4740) :  INFO (pipeinterface:25) - Entering run loop
+2015-08-12 22:22:11,843 (7f298a4a4740) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2015-08-12 22:22:11,844 (7f298a4a4740) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2015-08-12 22:22:11,844 (7f298a4a4740) :  DEBUG (runtime:918) - Response: [200] MediaContainer, 148 bytes

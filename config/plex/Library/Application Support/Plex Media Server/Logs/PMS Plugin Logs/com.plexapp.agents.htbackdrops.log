@@ -1,0 +1,40 @@
+2015-08-12 22:22:10,798 (7fdf12c78740) :  INFO (core:347) - Starting framework core - Version: 2.6.2, Build: 9c43436 (Mon Jul 20 02:39:32 UTC 2015)
+2015-08-12 22:22:10,798 (7fdf12c78740) :  DEBUG (core:359) - Using the standard policy
+2015-08-12 22:22:10,798 (7fdf12c78740) :  DEBUG (core:448) - Starting runtime component.
+2015-08-12 22:22:10,803 (7fdf12c78740) :  DEBUG (core:448) - Starting caching component.
+2015-08-12 22:22:10,803 (7fdf12c78740) :  DEBUG (core:448) - Starting data component.
+2015-08-12 22:22:10,803 (7fdf12c78740) :  DEBUG (core:448) - Starting networking component.
+2015-08-12 22:22:10,803 (7fdf12c78740) :  DEBUG (networking:292) - No cookie jar found
+2015-08-12 22:22:10,804 (7fdf12c78740) :  DEBUG (networking:458) - Setting the default network timeout to 20.0
+2015-08-12 22:22:10,804 (7fdf12c78740) :  DEBUG (core:448) - Starting localization component.
+2015-08-12 22:22:10,804 (7fdf12c78740) :  INFO (localization:408) - Setting the default locale to en-us
+2015-08-12 22:22:10,804 (7fdf12c78740) :  DEBUG (core:448) - Starting messaging component.
+2015-08-12 22:22:10,805 (7fdf12c78740) :  DEBUG (core:448) - Starting debugging component.
+2015-08-12 22:22:10,805 (7fdef2ffd700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.htbackdrops'
+2015-08-12 22:22:10,806 (7fdf12c78740) :  DEBUG (core:448) - Starting services component.
+2015-08-12 22:22:10,807 (7fdf12c78740) :  DEBUG (core:448) - Starting myplex component.
+2015-08-12 22:22:10,807 (7fdf12c78740) :  DEBUG (core:448) - Starting notifications component.
+2015-08-12 22:22:10,907 (7fdf12c78740) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.htbackdrops in namespace 'metadata'
+2015-08-12 22:22:10,911 (7fdf12c78740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2015-08-12 22:22:10,943 (7fdef2ffd700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2015-08-12 22:22:10,943 (7fdf12c78740) :  DEBUG (runtime:1111) - Created a thread named 'load_all_services'
+2015-08-12 22:22:10,944 (7fdef2ffd700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2015-08-12 22:22:10,968 (7fdef1ffb700) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400'
+2015-08-12 22:22:10,970 (7fdf12c78740) :  DEBUG (runtime:1111) - Created a thread named 'get_server_info'
+2015-08-12 22:22:10,973 (7fdf12c78740) :  DEBUG (core:150) - Finished starting framework core
+2015-08-12 22:22:10,973 (7fdf12c78740) :  DEBUG (core:558) - Loading plug-in code
+2015-08-12 22:22:10,992 (7fdef1ffb700) :  DEBUG (core:536) - Machine identifier is 9d5c4bd64759e6065ad6711399b5cc3aa49f25e0
+2015-08-12 22:22:10,993 (7fdef1ffb700) :  DEBUG (core:537) - Server version is 0.9.12.8.1362-4601e39
+2015-08-12 22:22:10,997 (7fdf12c78740) :  DEBUG (core:564) - Finished loading plug-in code
+2015-08-12 22:22:10,997 (7fdf12c78740) :  DEBUG (messaging:69) - Exposing function ArtistSearch for remote access
+2015-08-12 22:22:10,998 (7fdf12c78740) :  DEBUG (agentkit:1094) - Creating new agent class called HTBDAgent
+2015-08-12 22:22:11,003 (7fdf12c78740) :  DEBUG (agentkit:912) - Updating agent information: [{'media_types': ['Artist'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.lastfm'], 'languages': ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'an', 'hy', 'as', 'av', 'ae', 'ay', 'az', 'bm', 'ba', 'eu', 'be', 'bn', 'bh', 'bi', 'bs', 'pb', 'br', 'bg', 'my', 'ca', 'ch', 'ce', 'ny', 'zh', 'cu', 'cv', 'kw', 'co', 'cr', 'hr', 'cs', 'da', 'dv', 'nl', 'dz', 'en', 'eo', 'et', 'ee', 'fo', 'fj', 'fi', 'fr', 'fy', 'ff', 'gd', 'gl', 'lg', 'ka', 'de', 'el', 'gn', 'gu', 'ht', 'ha', 'he', 'hz', 'hi', 'ho', 'hu', 'is', 'io', 'ig', 'id', 'ia', 'ie', 'iu', 'ik', 'ga', 'it', 'ja', 'jv', 'kl', 'kn', 'kr', 'ks', 'kk', 'km', 'ki', 'rw', 'ky', 'kv', 'kg', 'ko', 'kj', 'ku', 'lo', 'la', 'lv', 'li', 'ln', 'lt', 'lu', 'lb', 'mk', 'mg', 'ms', 'ml', 'mt', 'gv', 'mi', 'mr', 'mh', 'mo', 'mn', 'na', 'nv', 'ng', 'ne', 'xn', 'nd', 'no', 'nb', 'nn', 'oc', 'oj', 'or', 'om', 'os', 'pi', 'pa', 'fa', 'pl', 'pt', 'ps', 'qu', 'rm', 'ro', 'rn', 'ru', 'se', 'sm', 'sg', 'sa', 'sc', 'sr', 'sn', 'ii', 'sd', 'si', 'sk', 'sl', 'so', 'st', 'nr', 'es', 'su', 'sw', 'ss', 'sv', 'tl', 'ty', 'tg', 'ta', 'tt', 'te', 'th', 'bo', 'ti', 'to', 'ts', 'tn', 'tr', 'tk', 'tw', 'ug', 'uk', 'ur', 'uz', 've', 'vi', 'vo', 'wa', 'cy', 'wo', 'xh', 'yi', 'yo', 'za', 'zu'], 'persist_stored_files': True, 'version': 0, 'primary_provider': False, 'prefs': False, 'name': 'Home Theater Backdrops'}]
+2015-08-12 22:22:11,004 (7fdf12c78740) :  DEBUG (networking:172) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMwCmNvbS5wbGV4YXBwLmFnZW50cy5odGJhY2tkcm9wc3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczIyCkhvbWUgVGhlYXRlciBCYWNrZHJvcHNzNApuYW1lMQpzNgpBcnRpc3QxCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtMTg3CnMyCmFiczIKYWFzMgphZnMyCmFrczIKc3FzMgphbXMyCmFyczIKYW5zMgpoeXMyCmFzczIKYXZzMgphZXMyCmF5czIKYXpzMgpibXMyCmJhczIKZXVzMgpiZXMyCmJuczIKYmhzMgpiaXMyCmJzczIKcGJzMgpicnMyCmJnczIKbXlzMgpjYXMyCmNoczIKY2VzMgpueXMyCnpoczIKY3VzMgpjdnMyCmt3czIKY29zMgpjcnMyCmhyczIKY3NzMgpkYXMyCmR2czIKbmxzMgpkenMyCmVuczIKZW9zMgpldHMyCmVlczIKZm9zMgpmanMyCmZpczIKZnJzMgpmeXMyCmZmczIKZ2RzMgpnbHMyCmxnczIKa2FzMgpkZXMyCmVsczIKZ25zMgpndXMyCmh0czIKaGFzMgpoZXMyCmh6czIKaGlzMgpob3MyCmh1czIKaXNzMgppb3MyCmlnczIKaWRzMgppYXMyCmllczIKaXVzMgppa3MyCmdhczIKaXRzMgpqYXMyCmp2czIKa2xzMgprbnMyCmtyczIKa3NzMgpra3MyCmttczIKa2lzMgpyd3MyCmt5czIKa3ZzMgprZ3MyCmtvczIKa2pzMgprdXMyCmxvczIKbGFzMgpsdnMyCmxpczIKbG5zMgpsdHMyCmx1czIKbGJzMgpta3MyCm1nczIKbXNzMgptbHMyCm10czIKZ3ZzMgptaXMyCm1yczIKbWhzMgptb3MyCm1uczIKbmFzMgpudnMyCm5nczIKbmVzMgp4bnMyCm5kczIKbm9zMgpuYnMyCm5uczIKb2NzMgpvanMyCm9yczIKb21zMgpvc3MyCnBpczIKcGFzMgpmYXMyCnBsczIKcHRzMgpwc3MyCnF1czIKcm1zMgpyb3MyCnJuczIKcnVzMgpzZXMyCnNtczIKc2dzMgpzYXMyCnNjczIKc3JzMgpzbnMyCmlpczIKc2RzMgpzaXMyCnNrczIKc2xzMgpzb3MyCnN0czIKbnJzMgplc3MyCnN1czIKc3dzMgpzc3MyCnN2czIKdGxzMgp0eXMyCnRnczIKdGFzMgp0dHMyCnRlczIKdGhzMgpib3MyCnRpczIKdG9zMgp0c3MyCnRuczIKdHJzMgp0a3MyCnR3czIKdWdzMgp1a3MyCnVyczIKdXpzMgp2ZXMyCnZpczIKdm9zMgp3YXMyCmN5czIKd29zMgp4aHMyCnlpczIKeW9zMgp6YXMyCnp1cjAK'
+2015-08-12 22:22:11,041 (7fdf12c78740) :  INFO (core:609) - Started plug-in
+2015-08-12 22:22:11,041 (7fdf12c78740) :  DEBUG (socketinterface:160) - Starting socket server
+2015-08-12 22:22:11,058 (7fdf12c78740) :  DEBUG (runtime:1111) - Created a thread named 'start'
+2015-08-12 22:22:11,058 (7fdf12c78740) :  INFO (socketinterface:184) - Socket server started on port 59621
+2015-08-12 22:22:11,058 (7fdf12c78740) :  INFO (pipeinterface:25) - Entering run loop
+2015-08-12 22:22:11,059 (7fdf12c78740) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2015-08-12 22:22:11,061 (7fdf12c78740) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2015-08-12 22:22:11,061 (7fdf12c78740) :  DEBUG (runtime:918) - Response: [200] MediaContainer, 155 bytes
